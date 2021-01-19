@@ -187,11 +187,15 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.	In the **Add inbound policy** section, select the **Set headers** tile.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/21.png)
+
 1.	In the **Inbound processing, Set Headers** section, perform the following actions:
     
     1.  In the **Name** text box, enter **source**.
     
     1.  In the **Value** text box, select the list, select **Add Value**, and then enter **azure-api-mgmt**.
+    
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/22.png)
     
     1.  In the **Action** list, select **append**.
     
@@ -213,9 +217,15 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.	Back from the **Design** tab, in the list of operations, select **Echo Headers**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/23.png)
+
 1.	From the **Test** tab, select the **Echo Headers** operation.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/24.png)
+
 1.	In the **Echo Headers** section, select **Send**.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/25.png)
 
 1.	Observe the results of the API request.
 
@@ -237,6 +247,8 @@ In this exercise, you created a new Azure web app by using a container image sou
     
     1.  In the **URL** text box, enter **/xml**.
     
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/26.png)
+    
     1.  Select **Save**.
 
 1.  Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
@@ -245,15 +257,21 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.	In the **Get Legacy Data** section, select **Send**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/27.png)
+
 1.	Observe the results of the API request.
 
     > **Note**: At this point, the results should be in XML format.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/28.png)
 
 1.	Back from the **Design** tab, in the list of operations, select **Get Legacy Data**.
 
 1.  In the **Design** section for the **Get Legacy Data** operation, find the **Outbound processing** tile, and then select **Add policy**.
 
 1.  In the **Add outbound policy** section, select the **Other policies** tile.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/30.png)
 
 1.  In the policy code editor, find the following block of XML content:
 
@@ -271,6 +289,8 @@ In this exercise, you created a new Azure web app by using a container image sou
         <xml-to-json kind="direct" apply="always" consider-accept-header="false" />
     </outbound>
     ```
+        
+    
     ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/31.png)
 
 1.  In the policy code editor, select **Save**.
@@ -284,6 +304,8 @@ In this exercise, you created a new Azure web app by using a container image sou
 1.	Observe the results of the API request.
 
     > **Note**: The new results are in JavaScript Object Notation (JSON) format.
+    
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/29.png)    
 
 1.  Within the **HTTP response** section, perform the following actions:
 
