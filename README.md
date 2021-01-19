@@ -183,6 +183,8 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  In the **Add a new API** section, select **Blank API**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/16.png)
+
 1.  In the **Create a blank API** window, perform the following actions:
     
     1.  In the **Display name** text box, enter **HTTPBin API**.
@@ -196,6 +198,8 @@ In this exercise, you created a new Azure web app by using a container image sou
     1.  Leave the **API URL suffix** text box empty.
 
     1.  Select **Create**.
+    
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/17.png)
 
     > **Note**: Wait for the new API to finish being created.
 
