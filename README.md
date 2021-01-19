@@ -271,6 +271,7 @@ In this exercise, you created a new Azure web app by using a container image sou
         <xml-to-json kind="direct" apply="always" consider-accept-header="false" />
     </outbound>
     ```
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/31.png)
 
 1.  In the policy code editor, select **Save**.
 
@@ -288,7 +289,13 @@ In this exercise, you created a new Azure web app by using a container image sou
 
     1.  Select **Trace**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/32.png)
+
     1.  Observe the content in the **Backend** and **Outbound** text boxes.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/33.png)
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/34.png)
 
 #### Review
 
@@ -315,6 +322,7 @@ In this exercise, you built a proxy tier between your App Service resource and a
     ```
     az group delete --name ApiService --no-wait --yes
     ```
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/35.png)
     
 1.  Close the Cloud Shell pane in the portal.
 
