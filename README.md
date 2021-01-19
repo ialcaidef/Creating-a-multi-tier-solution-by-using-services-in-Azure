@@ -27,6 +27,8 @@
 
 1.  From the **Web App** blade, select **Create**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/01.png)
+
 1.  From the second **Web App** blade, find the tabs from the blade, such as **Basics**.
 
     > **Note**: Each tab represents a step in the workflow to create a new web app. You can select **Review + Create** at any time to skip the remaining tabs.
@@ -46,6 +48,15 @@
     1.  In the **Region** drop-down list, select the **East US** region.
 
     1.  In the **Linux Plan (East US)** section, select **Create new**, enter the value **ApiPlan** in the **Name** text box, and then select **OK**.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/02.png)
+
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/03.png)
+
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/04.png)
+
 
     1.  Leave the **SKU and size** section set to its default value.
 
@@ -79,19 +90,31 @@
 
 1.	From the **Web App** blade, select **Browse**.
 
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/06.png)
+
+
 1.  Within the web application, perform the following actions:
 
     1.  Select **Response formats**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/07.png)
+
     1.  Select **GET /xml**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/08.png)
+
     1.  Select **Try it out**.
+    
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/09.png)
 
     1.  Select **Execute**.
 
     1.  Observe the value of the **Response body** and **Response headers** text boxes.
 
     1.  Observe the value of the **Request URL** text box.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/10.png)
 
 1.  Close the browser window for the web application.
 
@@ -100,6 +123,8 @@
 1.  From the **Web App** blade, in the **Settings** section, select the **Properties** link.
 
 1.  In the **Properties** section, record the value of the **URL** text box. You'll use this value later in the lab to make requests against the API.
+
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/11.png)
 
 #### Review
 
@@ -119,6 +144,8 @@ In this exercise, you created a new Azure web app by using a container image sou
 
 1.  From the **API Management** blade, select **Create**.
 
+![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/12.png)
+
 1.  From the **API Management Service** blade, perform the following actions:
     
     1.  In the **Name** text box, enter **prodapi*[yourname]***.
@@ -136,6 +163,11 @@ In this exercise, you created a new Azure web app by using a container image sou
     1.  In the **Pricing tier** list, select **Consumption (99.9 SLA, %)**.
     
     1.  Select **Create**.
+    
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/13.png)
+    
+    ![AZ204-imagen](https://github.com/ialcaidef/Creating-a-multi-tier-solution-by-using-services-in-Azure/blob/main/14.png)
+    
 
     > **Note**: Wait for the creation task to complete before you move forward with this lab.
 
